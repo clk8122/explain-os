@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EXPLAIN OS Confidentialité</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: single reading column, brand square + wordmark, quiet legal typography */
+:root{--bg:#f6f4ef;--fg:#18191c;--muted:#6f6a61;--line:#e1ddd3;--accent:#2b59ff;--display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Source Serif 4",Georgia,serif;--ui:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#131417;--fg:#ecebe6;--muted:#9a968d;--line:#2a2b30;--accent:#7e9bff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#131417;--fg:#ecebe6;--muted:#9a968d;--line:#2a2b30;--accent:#7e9bff;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.65}
+main{max-width:680px;margin:0 auto;padding-block:56px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;letter-spacing:.24em;font-size:14px}
+.brand i{width:12px;height:12px;border-radius:3px;background:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,6vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.meta{font-family:var(--ui);font-size:13px;color:var(--muted);margin-top:-14px}
+section{display:grid;gap:6px;border-top:1px solid var(--line);padding-top:18px}
+h2{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+p{margin:0}
+.mail{font-family:var(--ui);user-select:all;color:var(--accent)}
+nav{font-family:var(--ui);font-size:14px;display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:var(--accent)}
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+<main>
+<div class="brand"><i></i>EXPLAIN OS</div>
+<h1>Politique de confidentialité</h1>
+<div class="meta">Dernière mise à jour : 25 octobre 2026</div>
+<section><h2>Données utilisées</h2><p>Avec les autorisations accordées par le créateur sur TikTok : identifiant, nom affiché et photo de profil (user.info.basic) ; statistiques de ses propres vidéos, soit vues, likes, commentaires et partages (video.list) ; envoi de vidéos sur son compte (video.upload, video.publish).</p></section>
+<section><h2>Pourquoi</h2><p>Afficher le compte connecté, publier les vidéos approuvées par le créateur et lui montrer leurs statistiques dans un tableau de bord privé.</p></section>
+<section><h2>Stockage et sécurité</h2><p>Les données restent sur l'ordinateur du créateur. Les jetons d'accès TikTok y sont chiffrés (AES-256-GCM). Aucune donnée n'est vendue, partagée avec des tiers ou utilisée pour de la publicité.</p></section>
+<section><h2>Durée et suppression</h2><p>Les données sont gardées tant que le compte est connecté. La déconnexion dans l'application supprime les jetons, et l'accès peut aussi être retiré depuis les paramètres TikTok.</p></section>
+<section><h2>Vos droits</h2><p>Conformément au RGPD, vous pouvez demander l'accès, la rectification ou l'effacement de vos données à l'adresse ci-dessous. Vous pouvez aussi saisir la CNIL (cnil.fr).</p></section>
+<section><h2>Contact</h2><p class="mail">clotairebarre@icloud.com</p></section>
+<nav><a href="./">Accueil</a><a href="conditions.html">Conditions</a><a href="confidentialite.html">Confidentialité</a></nav>
+</main>
+
+</body>
+</html>
